@@ -61,4 +61,17 @@ Memory
 Performances -> Memory
 浏览器 -> 更多工具 -> 任务管理器 -> 右键可以显示更多数据
 
-20.
+20.如何查看网页的Service Worker(基于Web Worker)
+Application -> Service Workers
+
+21.清空缓存
+Application -> Clear storage
+
+22.查看缓存(离线文件)
+Application -> Cache Storage / Application Cache
+
+23.保存网站资源
+Application -> Frames 选中文件进行保存
+
+24.查看网站资源的安全性
+Security
