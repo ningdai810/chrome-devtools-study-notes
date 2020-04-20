@@ -1,0 +1,64 @@
+1.快速修改元素的属性和其值
+Elements -> 右键元素 -> Add / Edit Attributes --- Copy等选项
+
+2.保持元素的某个特殊状态
+Elements -> 右键元素 -> Force state
+
+3.修改浏览器的window.navigator.userAgent
+三点设置 -> More tools -> Network conditions -> User agent -> 不选中 Select automatically 就可以自定义User agent
+此设置页面还可以修改网络的速度
+
+4.查看元素的盒子模型和最终样式
+Elements -> Computed 可以直接在盒子模型上修改值
+
+5.查看元素的最终样式是由哪哥具体的样式决定的
+Elements -> Computed -> 某个具体样式,黑色小箭头
+
+6.查看事件监听
+Elements -> Event Listeners
+
+7.查看插件的日志信息及监听某个变量值
+Console -> "top"下拉选择插件, 右侧眼睛图标可以添加需要监听的变量
+
+8.美化JS/CSS源码
+Sources -> 选中JS/CSS文件 -> 文件左下角"Pretty print"
+
+9.查看调用栈
+Sources -> Call Stack
+
+10.将修改同步到本地文件
+其实就是将本地文件加载到浏览器中直接修改
+Sources -> Filesystem -> Add folder to workspace
+
+11.查看页面上正在重绘的元素
+三点设置 -> More tools -> Rendering -> Paint flashing
+
+12.监控并且统计网页没有使用到的脚本
+三点设置 -> More tools -> Coverage
+
+13.监控页面的动画
+三点设置 -> More tools -> Animations
+
+14.快速打开站点上的文件进行编辑查看
+Sources -> Ctrl + P -> 输入文件的名称
+
+15.让浏览器阻止请求某些资源
+三点设置 -> More tools -> Request blocking
+
+16.资源内容检索
+三点设置 -> More tools -> Search
+
+17.模拟传感器数据,比如地理位置,屏幕方向等
+三点设置 -> More tools -> Sensors
+
+18.性能分析方法
+隐身模式下打开进行性能调试,排除插件对性能的影响
+Performance -> 录制 -> Capture settings -> CPU: 6 * slow down降低CPU性能
+查看FPS, Network, WASD是查看快捷键, Call Tree可以查看具体的操作花费的时间还可以跳转到源码
+
+19.内存分析
+Memory
+Performances -> Memory
+浏览器 -> 更多工具 -> 任务管理器 -> 右键可以显示更多数据
+
+20.
